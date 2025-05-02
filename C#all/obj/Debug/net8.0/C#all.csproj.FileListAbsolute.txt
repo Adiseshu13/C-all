@@ -1,0 +1,14 @@
+C:\Users\bondadavenkata.a\Desktop\90days\C#all\C#all\bin\Debug\net8.0\C#all.exe
+C:\Users\bondadavenkata.a\Desktop\90days\C#all\C#all\bin\Debug\net8.0\C#all.deps.json
+C:\Users\bondadavenkata.a\Desktop\90days\C#all\C#all\bin\Debug\net8.0\C#all.runtimeconfig.json
+C:\Users\bondadavenkata.a\Desktop\90days\C#all\C#all\bin\Debug\net8.0\C#all.dll
+C:\Users\bondadavenkata.a\Desktop\90days\C#all\C#all\bin\Debug\net8.0\C#all.pdb
+C:\Users\bondadavenkata.a\Desktop\90days\C#all\C#all\obj\Debug\net8.0\C#all.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bondadavenkata.a\Desktop\90days\C#all\C#all\obj\Debug\net8.0\C#all.AssemblyInfoInputs.cache
+C:\Users\bondadavenkata.a\Desktop\90days\C#all\C#all\obj\Debug\net8.0\C#all.AssemblyInfo.cs
+C:\Users\bondadavenkata.a\Desktop\90days\C#all\C#all\obj\Debug\net8.0\C#all.csproj.CoreCompileInputs.cache
+C:\Users\bondadavenkata.a\Desktop\90days\C#all\C#all\obj\Debug\net8.0\C#all.dll
+C:\Users\bondadavenkata.a\Desktop\90days\C#all\C#all\obj\Debug\net8.0\refint\C#all.dll
+C:\Users\bondadavenkata.a\Desktop\90days\C#all\C#all\obj\Debug\net8.0\C#all.pdb
+C:\Users\bondadavenkata.a\Desktop\90days\C#all\C#all\obj\Debug\net8.0\C#all.genruntimeconfig.cache
+C:\Users\bondadavenkata.a\Desktop\90days\C#all\C#all\obj\Debug\net8.0\ref\C#all.dll
