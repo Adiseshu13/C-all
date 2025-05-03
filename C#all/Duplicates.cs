@@ -8,6 +8,7 @@ namespace C_all
 {
     public class Duplicates
     {
+        //Returns the Duplicate characters in the string
         public List<char> DupChars(string inp) {
             Dictionary<char,int> dict = new Dictionary<char,int>();
             List<char> result = new List<char>();
@@ -37,6 +38,7 @@ namespace C_all
             return result;
         }
 
+        // Returns duplicate Strings in the list of string.
         public List<string> DupStrs(List<string> inp)
         {
             Dictionary<string, int> dict = new Dictionary<string, int>();
@@ -57,6 +59,7 @@ namespace C_all
             return result;
         }
 
+        //Removes Dulicate letters from the string and returns string.
         public string RemDupLet(string inp)
         {
             StringBuilder result= new StringBuilder();

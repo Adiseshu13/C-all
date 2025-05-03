@@ -8,6 +8,7 @@ namespace C_all
 {
     public class Factorial
     {
+        // Returns Factorial of a number.
         public int fact(int n) {
             int result=1;
             while (n > 0)
@@ -15,9 +16,6 @@ namespace C_all
                 result = n * result;
                 n--;
             }
-
-
-
             return result;
             }
     }

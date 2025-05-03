@@ -8,6 +8,7 @@ namespace C_all
 {
     public class Fibinacci
     {
+        // Returns the fibinacci number.
         public int Fib(int n)
         {
             int n1 = 0;

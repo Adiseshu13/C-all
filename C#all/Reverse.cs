@@ -8,6 +8,7 @@ namespace C_all
 {
     public class Reverse
     {
+        // Returns the string by Reversing.
         public string RevStr(string inp)
         {
             List<char> chrs = inp.ToList();
@@ -25,7 +26,20 @@ namespace C_all
             return result;
         }
 
+        // Reversing string without using Loops or inbuilt functions 
+        public string ReverseStringRecursive(string str)
+        {
+            if (string.IsNullOrEmpty(str) || str.Length <= 1)
+            {
+                return str;
+            }
+            else
+            {
+                return ReverseStringRecursive(str.Substring(1)) + str[0];
+            }
+        }
 
+        //Returns the string by reversing the words. 
         public string RevStrWords(string inp)
         {
             StringBuilder temp = new StringBuilder();
@@ -38,6 +52,12 @@ namespace C_all
 
 
             }
+
+
+
+
+
+
 
 
 

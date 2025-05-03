@@ -8,7 +8,7 @@ namespace C_all
 {
     public class RemoveDuplicates
     {
-
+        //Returns the duplicate charactes and returns the string.
         public string RemoveDuplicateChars(string input)
         {
 

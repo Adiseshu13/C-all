@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace C_all
 {
+    // Returns if the given string is a Palindrome or not.
     public class Palindrome
     {
         public string PalCheck(string Pal)

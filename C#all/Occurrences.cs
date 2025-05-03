@@ -8,6 +8,7 @@ namespace C_all
 {
     public class Occurrences
     {
+        //Returns how many times the letters have occurred in the string.
         public void LetterOccurrences(string inp)
         {
             Dictionary<char,int> res = new Dictionary<char,int>();
@@ -30,9 +31,7 @@ namespace C_all
             foreach(var i in res)
             {
                 Console.WriteLine(i.Key + " " + i.Value);
-            }
-        
-        
+            }             
         
         }
     }

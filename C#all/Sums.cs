@@ -6,18 +6,16 @@ using System.Threading.Tasks;
 
 namespace C_all
 {
-    public class Counts
+    public class Sums
     {
-        // Returns the number ofcharacters in a string.
-        public int charsInStr(string str)
+        public int sumOfDigits(int n)
         {
-            int result=0;
-            foreach (char c in str)
+            int result = 0;
+            while (n > 0)
             {
-                result++;
+                result = result + n % 10;
+                n /= 10;
             }
-
-
             return result;
         }
     }
