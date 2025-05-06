@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_all
+namespace C_all.Basics
 {
     public class Occurrences
     {
         //Returns how many times the letters have occurred in the string.
         public void LetterOccurrences(string inp)
         {
-            Dictionary<char,int> res = new Dictionary<char,int>();
+            Dictionary<char, int> res = new Dictionary<char, int>();
             foreach (char c in inp)
             {
-                if(!(c==' '))
+                if (!(c == ' '))
                 {
                     if (res.ContainsKey(c))
                     {
@@ -28,11 +28,11 @@ namespace C_all
                 }
             }
 
-            foreach(var i in res)
+            foreach (var i in res)
             {
                 Console.WriteLine(i.Key + " " + i.Value);
-            }             
-        
+            }
+
         }
     }
 }

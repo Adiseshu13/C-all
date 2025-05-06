@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_all
+namespace C_all.Basics
 {
     public class Reverse
     {
@@ -12,12 +12,12 @@ namespace C_all
         public string RevStr(string inp)
         {
             List<char> chrs = inp.ToList();
-            int len=chrs.Count;
-            for(int i = 0; i <= (len-1) / 2; i++)
+            int len = chrs.Count;
+            for (int i = 0; i <= (len - 1) / 2; i++)
             {
                 char temp = chrs[i];
-                chrs[i] = chrs[len -1 - i];
-                chrs[len -1 - i] = temp;
+                chrs[i] = chrs[len - 1 - i];
+                chrs[len - 1 - i] = temp;
 
             }
 
@@ -43,10 +43,10 @@ namespace C_all
         public string RevStrWords(string inp)
         {
             StringBuilder temp = new StringBuilder();
-            StringBuilder result= new StringBuilder();
+            StringBuilder result = new StringBuilder();
             foreach (char c in inp)
             {
-                if(c==' ')
+                if (c == ' ')
                 {
                 }
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_all
+namespace C_all.Basics
 {
     public class Patterns
     {
@@ -15,9 +15,9 @@ namespace C_all
             int k = 1;
             for (int i = 0; i < n; i++)
             {
-                for(int j = 0; j < i + 1;j++)
+                for (int j = 0; j < i + 1; j++)
                 {
-                    Console.Write(k+" ");
+                    Console.Write(k + " ");
                     k++;
                 }
                 Console.WriteLine();
@@ -28,11 +28,11 @@ namespace C_all
 
         public void ReverseTriangles(int n)
         {
-            for(int i=1; i<=n; i++)
+            for (int i = 1; i <= n; i++)
             {
-                for(int j = i; j > 0; j--)
+                for (int j = i; j > 0; j--)
                 {
-                    Console.Write(j+" ");
+                    Console.Write(j + " ");
                 }
                 Console.WriteLine();
             }
@@ -41,15 +41,15 @@ namespace C_all
 
         public void InvertedTable(int n)
         {
-            for(int i = 0; i < n; i++)
+            for (int i = 0; i < n; i++)
             {
-                for(int k = 0; k < i; k++)
+                for (int k = 0; k < i; k++)
                 {
                     Console.Write("  ");
                 }
-                for(int k = 0; k < n - i; k++)
+                for (int k = 0; k < n - i; k++)
                 {
-                    Console.Write(i+1+" ");
+                    Console.Write(i + 1 + " ");
                 }
                 Console.WriteLine();
             }
@@ -57,17 +57,17 @@ namespace C_all
 
         public void Pyramid(int n)
         {
-            for(int i = 1; i <= n; i++)
+            for (int i = 1; i <= n; i++)
             {
-                for(int j=0;j<n-i; j++)
+                for (int j = 0; j < n - i; j++)
                 {
                     Console.Write("  ");
                 }
-                for(int j = 1; j <= i; j++)
+                for (int j = 1; j <= i; j++)
                 {
                     Console.Write(j + " ");
                 }
-                for(int j = i - 1; j > 0; j--)
+                for (int j = i - 1; j > 0; j--)
                 {
                     Console.Write(j + " ");
                 }

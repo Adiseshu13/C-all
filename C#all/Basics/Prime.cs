@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_all
+namespace C_all.Basics
 {
     public class Prime
     {
@@ -20,12 +20,12 @@ namespace C_all
             }
             else
             {
-                for(int i = 2; i <= n / 2; i++)
+                for (int i = 2; i <= n / 2; i++)
                 {
                     if (n % i == 0)
                     {
                         return " Not Prime ";
-                    }                    
+                    }
                 }
                 return " Prime ";
             }

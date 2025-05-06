@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_all
+namespace C_all.Basics
 {
     // Returns if the given string is a Palindrome or not.
     public class Palindrome
     {
         public string PalCheck(string Pal)
         {
-            Reverse rev=new Reverse();
-            string revPal=rev.RevStr(Pal);
+            Reverse rev = new Reverse();
+            string revPal = rev.RevStr(Pal);
             string result = revPal == Pal ? "Palindrome" : "Not Palindrome";
 
 

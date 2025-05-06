@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_all
+namespace C_all.Basics
 {
     public class Duplicates
     {
         //Returns the Duplicate characters in the string
-        public List<char> DupChars(string inp) {
-            Dictionary<char,int> dict = new Dictionary<char,int>();
+        public List<char> DupChars(string inp)
+        {
+            Dictionary<char, int> dict = new Dictionary<char, int>();
             List<char> result = new List<char>();
 
             foreach (char c in inp)
@@ -26,7 +27,7 @@ namespace C_all
 
             }
 
-            foreach(char c in dict.Keys)
+            foreach (char c in dict.Keys)
             {
                 if (dict[c] > 1)
                 {
@@ -49,10 +50,10 @@ namespace C_all
                 {
                     dict.Add(s, 1);
                 }
-                else if(dict[s] ==1) 
+                else if (dict[s] == 1)
                 {
                     dict[s]++;
-                     result.Add(s);
+                    result.Add(s);
                 }
             }
 
@@ -62,9 +63,9 @@ namespace C_all
         //Removes Dulicate letters from the string and returns string.
         public string RemDupLet(string inp)
         {
-            StringBuilder result= new StringBuilder();
+            StringBuilder result = new StringBuilder();
             List<char> chars = new List<char>();
-            foreach(char ch in inp)
+            foreach (char ch in inp)
             {
                 if (!chars.Contains(ch))
                 {

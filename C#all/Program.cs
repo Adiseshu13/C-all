@@ -1,5 +1,5 @@
-﻿
-using C_all;
+﻿using C_all.Algorithms;
+using C_all.Basics;
 
 
 
@@ -81,6 +81,62 @@ Sums _sums= new Sums();
 int sumofdigits = _sums.sumOfDigits(153);
 Console.WriteLine(sumofdigits);
 
+ArrayConversions _ac = new ArrayConversions();
+int[,] ar = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+int[] ac = _ac.twoDtooneD(ar);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------------Algorithms--------------------------------------------------------------------
+Console.WriteLine("---------------------------------------------------------------------------------");
+Console.WriteLine("--------------------------------Algorithms--------------------------------------");
+
+
+//Kadane's
+Console.WriteLine("Kadane's\n");
+
+
+Kadanes alg1 = new Kadanes();
+int[] alg1inp = [-4, 3, 5, -9, 5, 4, 3, -1, 2];
+Console.WriteLine(alg1.maxSumSubArray(alg1inp));
+
+
+
+//Pair Sum
+Console.WriteLine("\nPair Sum\n");
+
+PairSum alg2 = new PairSum();
+int[] alg2inp = [-4, 3, 5, -9, 5, 4, 3, -1, 2];
+int[] alg2result=alg2.indexesOfDesiredSumNumbermatches(alg2inp, -5);
+foreach(int i in alg2result)
+{
+    Console.WriteLine(i);
+}
+
+
+
+
+//Moore Voting
+Console.WriteLine("\nMoore Voting\n");
+
+MooreVoting alg3 = new MooreVoting();
+int[] alg3inp = [1, 2, 1, 2, 2, 1, 2, 2];
+Console.WriteLine("Most repeated value - " + alg3.mostRepeatedValue(alg3inp));

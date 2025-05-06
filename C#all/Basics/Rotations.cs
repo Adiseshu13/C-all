@@ -4,27 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_all
+namespace C_all.Basics
 {
     public class Rotations
     {
         //Rotate the values inside array to left side by 1 place. 
         public int[] leftRotation(int[] arr)
         {
-            if(arr.Length ==0 || arr.Length ==1){
+            if (arr.Length == 0 || arr.Length == 1)
+            {
                 return arr;
             }
-            for (int i = 0; i < arr.Length-1; i++)
+            for (int i = 0; i < arr.Length - 1; i++)
             {
-                arr[i]= arr[i + 1] + arr[i];
-                arr[i+1]= arr[i] - arr[i+1];
-                arr[i] = arr[i] - arr[i+1];
+                arr[i] = arr[i + 1] + arr[i];
+                arr[i + 1] = arr[i] - arr[i + 1];
+                arr[i] = arr[i] - arr[i + 1];
             }
             return arr;
         }
-        
+
         //Rotate the values inside arry to left side by n places 
-        public int[] leftRotation(int[] arr,int n)
+        public int[] leftRotation(int[] arr, int n)
         {
             if (arr.Length == 0 || arr.Length == 1)
             {
@@ -51,17 +52,17 @@ namespace C_all
             {
                 return arr;
             }
-            for(int i = len-1; i >0; i--)
+            for (int i = len - 1; i > 0; i--)
             {
                 arr[i] = arr[i - 1] + arr[i];
-                arr[i - 1] = arr[i] - arr[i-1];
+                arr[i - 1] = arr[i] - arr[i - 1];
                 arr[i] = arr[i] - arr[i - 1];
             }
             return arr;
         }
 
         //Rotate the values inside array to right side by n places
-        public int[] rightRotation(int[] arr,int n)
+        public int[] rightRotation(int[] arr, int n)
         {
             int len = arr.Length;
             if (len == 0 || len == 1)

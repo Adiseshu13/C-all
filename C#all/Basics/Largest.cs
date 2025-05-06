@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_all
+namespace C_all.Basics
 {
     public class Largest
     {
@@ -12,7 +12,7 @@ namespace C_all
         public int secondLargestInt(int[] nums)
         {
             int len = nums.Length;
-            int a = 0, b = 0;
+            int a = int.MinValue, b = int.MinValue;
             if (len == 0 || len == 1)
             {
                 return 0;
@@ -20,12 +20,12 @@ namespace C_all
 
             foreach (int num in nums)
             {
-                if(num>a)
+                if (num > a)
                 {
                     b = a;
                     a = num;
                 }
-                else if(num>b)
+                else if (num > b)
                 {
                     b = num;
                 }

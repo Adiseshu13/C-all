@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{B44ECA19-4E52-43A4-BADD-85821896BC1B}|C#all\\C#all.csproj|solutionrelative:c#all\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B44ECA19-4E52-43A4-BADD-85821896BC1B}|C#all\\C#all.csproj|c:\\users\\bondadavenkata.a\\desktop\\90days\\c#all\\c#all\\sums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B44ECA19-4E52-43A4-BADD-85821896BC1B}|C#all\\C#all.csproj|solutionrelative:c#all\\sums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B44ECA19-4E52-43A4-BADD-85821896BC1B}|C#all\\C#all.csproj|c:\\users\\bondadavenkata.a\\desktop\\90days\\c#all\\c#all\\algorithms\\moorevoting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B44ECA19-4E52-43A4-BADD-85821896BC1B}|C#all\\C#all.csproj|solutionrelative:c#all\\algorithms\\moorevoting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Sums.cs",
-              "DocumentMoniker": "C:\\Users\\bondadavenkata.a\\Desktop\\90days\\C#all\\C#all\\Sums.cs",
-              "RelativeDocumentMoniker": "C#all\\Sums.cs",
-              "ToolTip": "C:\\Users\\bondadavenkata.a\\Desktop\\90days\\C#all\\C#all\\Sums.cs",
-              "RelativeToolTip": "C#all\\Sums.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Title": "MooreVoting.cs",
+              "DocumentMoniker": "C:\\Users\\bondadavenkata.a\\Desktop\\90days\\C#all\\C#all\\Algorithms\\MooreVoting.cs",
+              "RelativeDocumentMoniker": "C#all\\Algorithms\\MooreVoting.cs",
+              "ToolTip": "C:\\Users\\bondadavenkata.a\\Desktop\\90days\\C#all\\C#all\\Algorithms\\MooreVoting.cs",
+              "RelativeToolTip": "C#all\\Algorithms\\MooreVoting.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T07:27:40.006Z",
+              "WhenOpened": "2025-05-06T10:01:23.871Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +41,9 @@
               "RelativeDocumentMoniker": "C#all\\Program.cs",
               "ToolTip": "C:\\Users\\bondadavenkata.a\\Desktop\\90days\\C#all\\C#all\\Program.cs",
               "RelativeToolTip": "C#all\\Program.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAuwFEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAAIYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T05:55:51.711Z",
+              "WhenOpened": "2025-05-06T08:24:49.17Z",
               "EditorCaption": ""
             }
           ]

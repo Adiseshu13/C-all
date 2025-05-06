@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_all
+namespace C_all.Basics
 {
     public class RemoveDuplicates
     {
@@ -18,7 +18,7 @@ namespace C_all
                 if (!chars.Contains(c))
                 {
                     chars.Add(c);
-                }                
+                }
             }
             StringBuilder sb = new StringBuilder();
             foreach (char c in chars)
